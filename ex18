@@ -1,0 +1,32 @@
+import java.util.*;
+import java.lang.*;
+
+class Rextester
+{  
+ 	  
+	     int rollno;  
+	     String name;  
+	     static String college = "ITS";  
+	       
+	     static void change(){  
+	     college = "BBDIT";  	     }  
+	  
+     Rextester(int r, String n){  
+	     rollno = r;  
+	     name = n;  
+	     }  
+	  
+	     void display (){System.out.println(rollno+" "+name+" "+college);}  
+	  
+	    public static void main(String args[]){  
+	    Rextester.change();  
+	  
+	    Rextester s1 = new Rextester (111,"Karan");  
+        Rextester s2 = new Rextester (222,"Aryan");  
+	    Rextester s3 = new Rextester (333,"Sonoo");  
+  
+	    s1.display();  
+	    s2.display();  
+	    s3.display();  
+	    }  
+	}  
