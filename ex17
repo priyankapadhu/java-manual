@@ -1,0 +1,22 @@
+import java.util.*;
+import java.lang.*;
+
+class Rextester
+{  
+ 
+	  
+	static int count=0;
+	  
+	Rextester(){  
+	count++;  
+	System.out.println(count);  
+	}  
+
+	 	public static void main(String args[]){  
+	  
+	Rextester c1=new Rextester();  
+	Rextester c2=new Rextester();  
+	Rextester c3=new Rextester();  
+	  
+	 }  
+	}  
